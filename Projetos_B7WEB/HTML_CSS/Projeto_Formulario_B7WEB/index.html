@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css">
+    <title>Cadastro de Alunos</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_title">SCA - Sistema de Controle Acadêmico</div>
+        <div class="options_search">
+            <input class="search_bar" placeholder="Pesquisar..." />
+            <button class="options">Configurações</button>
+            <button class="options">Perfil</button>
+            <button class="options">Ajuda</button>
+        </div>
+        </div>
+    </header>
+    <section class="aside_article">
+        <nav class="aside_menu">
+            <button class="aside_menu_options" id="menu_inicio">Ínicio</button>
+            <button class="aside_menu_options" id="active">Formulário</button>
+            <button class="aside_menu_options">Contato</button>
+        </nav>
+        <article class="forms_flex">
+            <div class="forms_title">
+                <h1>Cadastro de Alunos</h1>
+                <h2>Dados do aluno</h2>
+            </div>
+            <div class="div_forms_flex">
+                <div class="div_forms_1">
+                    <div id="prontuario">Prontuário:<input class="forms" id="prontuario_input" /><br></div>
+                    <div id="nome">Nome:<input class="forms" id="nome_input" /><br></div>
+                    <div id="data_sexo">Data Nascimento:<input type="date" date class="forms" id="data_nasc_input" />
+                        Sexo: <select class="forms" id="sexo_input">
+                            <option value="M">M</option>
+                            <option value="F">F</option>
+                        </select><br></div>
+                    <div id="curso">Curso: <select class="forms" id="curso_input">
+                        <option value="ADS">Análise e Desenvolvimento de Sistemas</option>
+                        <option value="ARQ">Arquitetura</option>
+                        <option value="DIR">Direito</option>
+                        <option value="MED">Medicina</option>
+                    </select></div>
+                </div>
+                <div class="div_forms_2">
+                    <div id="cpf_rg">CPF:<input class="forms" type="tel" id="cpf_input" />
+                        RG:<input class="forms" type="tel" id="rg_input"><br></div>
+                    <div id="telefone_celular">Telefone:<input class="forms" type="tel" id="telefone_input" />
+                        Celular:<input class="forms" id="celular_input"><br></div>
+                    <div id="email">E-mail:<input class="forms" type="email" id="email_input" /></div>
+                </div>
+            </div>
+            <div class="forms_title">
+                <h2>Dados do responsável</h2>
+                <div class="div_forms_flex">
+                    <div class="div_forms_3">
+                        <div id="nome_r">Nome:<input class="forms" id="nome_input_r" /><br></div>
+                        <div id="email_r">E-mail:<input type="email" class="forms" id="email_input_r" /><br></div>
+                    </div>
+                    <div class="div_forms_4">
+                        <div id="cpf_rg_r">CPF:<input class="forms" type="tel" id="cpf_input_r" />
+                            RG:<input class="forms" type="tel" id="rg_input_r"><br></div>
+                        <div id="data_celular_r">Dt Nasc:<input class="forms" type="date" id="telefone_input_r" />
+                            Celular:<input class="forms" id="celular_input_r"><br></div>
+                    </div>
+                </div>
+            </div>
+            <div class="botoes">
+                <button class="submit">Enviar</button><button class="clear">Limpar</button>
+            </div>
+    </section>
+</body>
+
+</html>

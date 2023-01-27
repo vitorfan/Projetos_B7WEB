@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_title{
+    color: #ababab;
+    font-size: 20px;
+    padding: 20px;
+    font-family: arial;
+}
+
+.options_search{
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.search_bar{
+    border-radius:5px;
+    font-weight: 300px;
+    padding: 7px;
+    margin-right: 15px;
+}
+
+.options{
+    background-color: #1e1e1e;
+    border:none;
+    padding: 7px;
+    margin-right: 15px;
+    color: #ababab;
+}
+
+.options:hover{
+    background-color: #ababab;
+    color: #000;
+    border-radius: 5px;
+}
+
+.aside_article{
+    display: flex;
+}
+
+.aside_menu{
+    background-color:#F3F3F3;
+    max-width: 250px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+nav .aside_menu_options{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3880C8;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    border: none;
+    font-weight: bold;
+}
+
+#menu_inicio{
+    margin-top: 30px ;
+}
+
+nav .aside_menu_options:hover, #active{
+    background-color: #3880C8;
+    color: #F3F3F3;
+}
+
+h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35px;
+}
+
+h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35px;
+}
+
+.forms_flex{
+    display: flex;
+    width: 100%;
+}
+
+.forms_title{
+    width: 100%;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+.div_forms_1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.div_forms_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+#prontuario{
+    margin-left: 119px;
+}
+
+#nome{
+    margin-left:147px
+}
+
+#data_sexo{
+    margin-left:76px;
+}
+
+#curso{
+    margin-left: 144px;
+}
+
+#prontuario_input{
+    padding-right: 100px;
+}
+
+#nome_input{
+    padding-right: 100px;
+}
+
+#data_nasc_input{
+    margin-right: 52px;
+}
+
+#curso_input{
+    padding-right: 09px;
+}
+
+.forms{
+    margin:10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.div_forms_flex{
+    display: flex;
+}
+
+#cpf_rg{
+    margin-left: 27px;
+}
+
+#cpf_input{
+    margin-right: 35px;
+}
+
+#email{
+    margin-left:12px
+}
+.div_forms_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.div_forms_4{
+    display: flex;
+    flex-direction: column;
+}
+
+#nome_r{
+    margin-left: 146px;
+}
+
+#email_r{
+    margin-left: 142px;
+}
+
+#nome_input_r{
+    padding-right: 100px;
+}
+
+#email_input_r{
+    padding-right: 100px;
+}
+
+#cpf_rg_r{
+    margin-left: 50px;
+}
+
+#data_celular_r{
+    margin-left:27px
+}
+
+#cpf_input_r{
+    margin-right: 33px;
+}
+
+#telefone_input_r{
+    margin-right: 66px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botoes button{
+    padding:8px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-right: 130px;
+}
+
+.submit{
+    background-color: #3880C8;
+    color: #fff;
+}
+
+.clear{
+    background-color: #eda243;
+    color: #fff;
+    display: flex;
+    justify-self: flex-start;
+}
+
+.submit:hover{
+    background-color:#fff;
+    color:#3880C8;
+    border: 1px solid #3880C8;
+}
+
+.clear:hover{
+    background-color:#fff;
+    color:#eda243;
+    border: 1px solid #eda243;
+}
